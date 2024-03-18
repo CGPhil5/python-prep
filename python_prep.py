@@ -13,19 +13,25 @@
 # limitations under the License.
 
 def exercise_1(S):
-
+num= int (S[4])
+sum = 0
+for value in range(1, num +1):
+    sum = sum + value
+    print(sum)
     # TODO: Add up the numbers in S using a for-loop and return the sum.
 
     return 
 
 def exercise_2(S):
-
+Sum = Sum(S)
+print(Sum)
     # TODO: Add up the numbers in S in 2 lines or less and return the sum.
 
     return 
 
 def exercise_3():
-
+tuple_dictionary = dict()
+tuple_dictionary = {'x':f=8x+3y, 'y':f=8x+3y}
     # TODO: Build a dictionary with:
     #  - keys: tuple of points (x, y)
     #  - values: value of function f = 8x + 3y
